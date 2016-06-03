@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63A3B7321D0162B000AF268D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B7311D0162B000AF268D /* main.m */; };
+		63A3B7351D0162B000AF268D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B7341D0162B000AF268D /* AppDelegate.m */; };
+		63A3B73B1D0162B000AF268D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A3B7391D0162B000AF268D /* Main.storyboard */; };
+		63A3B73D1D0162B000AF268D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A3B73C1D0162B000AF268D /* Assets.xcassets */; };
+		63A3B7401D0162B000AF268D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A3B73E1D0162B000AF268D /* LaunchScreen.storyboard */; };
+		63A3B74B1D0162B000AF268D /* HYLNetworkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B74A1D0162B000AF268D /* HYLNetworkDemoTests.m */; };
+		63A3B75E1D016F7B00AF268D /* Chapter1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A3B75D1D016F7B00AF268D /* Chapter1.storyboard */; };
+		63A3B7611D01719400AF268D /* HYLDetailDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B7601D01719400AF268D /* HYLDetailDisplayViewController.m */; };
+		63A3B7671D01725B00AF268D /* UITableViewController+ClickDetailPushNewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B7661D01725B00AF268D /* UITableViewController+ClickDetailPushNewVC.m */; };
+		63A3B76D1D017AAF00AF268D /* Introductions.plist in Resources */ = {isa = PBXBuildFile; fileRef = 63A3B76C1D017AAF00AF268D /* Introductions.plist */; };
+		63A3B7701D017BAF00AF268D /* HYLIntoductionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B76F1D017BAF00AF268D /* HYLIntoductionManager.m */; };
+		63A3B7771D018AE700AF268D /* HYLByteOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B7761D018AE700AF268D /* HYLByteOrderViewController.m */; };
+		63A3B77A1D018B5E00AF268D /* ByteOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B7791D018B5E00AF268D /* ByteOrder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63A3B7471D0162B000AF268D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A3B7251D0162B000AF268D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A3B72C1D0162B000AF268D;
+			remoteInfo = HYLNetworkDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63A3B72D1D0162B000AF268D /* HYLNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYLNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A3B7311D0162B000AF268D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		63A3B7331D0162B000AF268D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		63A3B7341D0162B000AF268D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		63A3B73A1D0162B000AF268D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		63A3B73C1D0162B000AF268D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63A3B73F1D0162B000AF268D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		63A3B7411D0162B000AF268D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A3B7461D0162B000AF268D /* HYLNetworkDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYLNetworkDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A3B74A1D0162B000AF268D /* HYLNetworkDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYLNetworkDemoTests.m; sourceTree = "<group>"; };
+		63A3B74C1D0162B000AF268D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63A3B75D1D016F7B00AF268D /* Chapter1.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Chapter1.storyboard; sourceTree = "<group>"; };
+		63A3B75F1D01719400AF268D /* HYLDetailDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLDetailDisplayViewController.h; sourceTree = "<group>"; };
+		63A3B7601D01719400AF268D /* HYLDetailDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLDetailDisplayViewController.m; sourceTree = "<group>"; };
+		63A3B7651D01725B00AF268D /* UITableViewController+ClickDetailPushNewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewController+ClickDetailPushNewVC.h"; sourceTree = "<group>"; };
+		63A3B7661D01725B00AF268D /* UITableViewController+ClickDetailPushNewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewController+ClickDetailPushNewVC.m"; sourceTree = "<group>"; };
+		63A3B76C1D017AAF00AF268D /* Introductions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Introductions.plist; sourceTree = "<group>"; };
+		63A3B76E1D017BAF00AF268D /* HYLIntoductionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLIntoductionManager.h; sourceTree = "<group>"; };
+		63A3B76F1D017BAF00AF268D /* HYLIntoductionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLIntoductionManager.m; sourceTree = "<group>"; };
+		63A3B7751D018AE700AF268D /* HYLByteOrderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLByteOrderViewController.h; sourceTree = "<group>"; };
+		63A3B7761D018AE700AF268D /* HYLByteOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLByteOrderViewController.m; sourceTree = "<group>"; };
+		63A3B7781D018B5E00AF268D /* ByteOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteOrder.h; sourceTree = "<group>"; };
+		63A3B7791D018B5E00AF268D /* ByteOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByteOrder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A3B72A1D0162B000AF268D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A3B7431D0162B000AF268D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63A3B7241D0162B000AF268D = {
+			isa = PBXGroup;
+			children = (
+				63A3B72F1D0162B000AF268D /* HYLNetworkDemo */,
+				63A3B7491D0162B000AF268D /* HYLNetworkDemoTests */,
+				63A3B72E1D0162B000AF268D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63A3B72E1D0162B000AF268D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A3B72D1D0162B000AF268D /* HYLNetworkDemo.app */,
+				63A3B7461D0162B000AF268D /* HYLNetworkDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A3B72F1D0162B000AF268D /* HYLNetworkDemo */ = {
+			isa = PBXGroup;
+			children = (
+				63A3B7551D016D2F00AF268D /* Chapter1 */,
+				63A3B7561D016DE600AF268D /* Chapter2 */,
+				63A3B7571D016DF800AF268D /* Chapter3 */,
+				63A3B7581D016E0000AF268D /* Chapter4 */,
+				63A3B7591D016E0700AF268D /* Chapter5 */,
+				63A3B75A1D016E1100AF268D /* Chapter6 */,
+				63A3B75B1D016E1700AF268D /* Chapter7 */,
+				63A3B75C1D016E1D00AF268D /* Chapter8 */,
+				63A3B7391D0162B000AF268D /* Main.storyboard */,
+				63A3B75F1D01719400AF268D /* HYLDetailDisplayViewController.h */,
+				63A3B7601D01719400AF268D /* HYLDetailDisplayViewController.m */,
+				63A3B7651D01725B00AF268D /* UITableViewController+ClickDetailPushNewVC.h */,
+				63A3B7661D01725B00AF268D /* UITableViewController+ClickDetailPushNewVC.m */,
+				63A3B73C1D0162B000AF268D /* Assets.xcassets */,
+				63A3B7301D0162B000AF268D /* Supporting Files */,
+			);
+			path = HYLNetworkDemo;
+			sourceTree = "<group>";
+		};
+		63A3B7301D0162B000AF268D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				63A3B7331D0162B000AF268D /* AppDelegate.h */,
+				63A3B7341D0162B000AF268D /* AppDelegate.m */,
+				63A3B76C1D017AAF00AF268D /* Introductions.plist */,
+				63A3B76E1D017BAF00AF268D /* HYLIntoductionManager.h */,
+				63A3B76F1D017BAF00AF268D /* HYLIntoductionManager.m */,
+				63A3B73E1D0162B000AF268D /* LaunchScreen.storyboard */,
+				63A3B7411D0162B000AF268D /* Info.plist */,
+				63A3B7311D0162B000AF268D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		63A3B7491D0162B000AF268D /* HYLNetworkDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				63A3B74A1D0162B000AF268D /* HYLNetworkDemoTests.m */,
+				63A3B74C1D0162B000AF268D /* Info.plist */,
+			);
+			path = HYLNetworkDemoTests;
+			sourceTree = "<group>";
+		};
+		63A3B7551D016D2F00AF268D /* Chapter1 */ = {
+			isa = PBXGroup;
+			children = (
+				63A3B7741D018A8D00AF268D /* Recipe1 */,
+				63A3B75D1D016F7B00AF268D /* Chapter1.storyboard */,
+			);
+			path = Chapter1;
+			sourceTree = "<group>";
+		};
+		63A3B7561D016DE600AF268D /* Chapter2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter2;
+			sourceTree = "<group>";
+		};
+		63A3B7571D016DF800AF268D /* Chapter3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter3;
+			sourceTree = "<group>";
+		};
+		63A3B7581D016E0000AF268D /* Chapter4 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter4;
+			sourceTree = "<group>";
+		};
+		63A3B7591D016E0700AF268D /* Chapter5 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter5;
+			sourceTree = "<group>";
+		};
+		63A3B75A1D016E1100AF268D /* Chapter6 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter6;
+			sourceTree = "<group>";
+		};
+		63A3B75B1D016E1700AF268D /* Chapter7 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter7;
+			sourceTree = "<group>";
+		};
+		63A3B75C1D016E1D00AF268D /* Chapter8 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Chapter8;
+			sourceTree = "<group>";
+		};
+		63A3B7741D018A8D00AF268D /* Recipe1 */ = {
+			isa = PBXGroup;
+			children = (
+				63A3B7781D018B5E00AF268D /* ByteOrder.h */,
+				63A3B7791D018B5E00AF268D /* ByteOrder.m */,
+				63A3B7751D018AE700AF268D /* HYLByteOrderViewController.h */,
+				63A3B7761D018AE700AF268D /* HYLByteOrderViewController.m */,
+			);
+			path = Recipe1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A3B72C1D0162B000AF268D /* HYLNetworkDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A3B74F1D0162B000AF268D /* Build configuration list for PBXNativeTarget "HYLNetworkDemo" */;
+			buildPhases = (
+				63A3B7291D0162B000AF268D /* Sources */,
+				63A3B72A1D0162B000AF268D /* Frameworks */,
+				63A3B72B1D0162B000AF268D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HYLNetworkDemo;
+			productName = HYLNetworkDemo;
+			productReference = 63A3B72D1D0162B000AF268D /* HYLNetworkDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63A3B7451D0162B000AF268D /* HYLNetworkDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A3B7521D0162B000AF268D /* Build configuration list for PBXNativeTarget "HYLNetworkDemoTests" */;
+			buildPhases = (
+				63A3B7421D0162B000AF268D /* Sources */,
+				63A3B7431D0162B000AF268D /* Frameworks */,
+				63A3B7441D0162B000AF268D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A3B7481D0162B000AF268D /* PBXTargetDependency */,
+			);
+			name = HYLNetworkDemoTests;
+			productName = HYLNetworkDemoTests;
+			productReference = 63A3B7461D0162B000AF268D /* HYLNetworkDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A3B7251D0162B000AF268D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HYL;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Henry;
+				TargetAttributes = {
+					63A3B72C1D0162B000AF268D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					63A3B7451D0162B000AF268D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 63A3B72C1D0162B000AF268D;
+					};
+				};
+			};
+			buildConfigurationList = 63A3B7281D0162B000AF268D /* Build configuration list for PBXProject "HYLNetworkDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A3B7241D0162B000AF268D;
+			productRefGroup = 63A3B72E1D0162B000AF268D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A3B72C1D0162B000AF268D /* HYLNetworkDemo */,
+				63A3B7451D0162B000AF268D /* HYLNetworkDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A3B72B1D0162B000AF268D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A3B7401D0162B000AF268D /* LaunchScreen.storyboard in Resources */,
+				63A3B73D1D0162B000AF268D /* Assets.xcassets in Resources */,
+				63A3B75E1D016F7B00AF268D /* Chapter1.storyboard in Resources */,
+				63A3B76D1D017AAF00AF268D /* Introductions.plist in Resources */,
+				63A3B73B1D0162B000AF268D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A3B7441D0162B000AF268D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A3B7291D0162B000AF268D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A3B7701D017BAF00AF268D /* HYLIntoductionManager.m in Sources */,
+				63A3B7351D0162B000AF268D /* AppDelegate.m in Sources */,
+				63A3B77A1D018B5E00AF268D /* ByteOrder.m in Sources */,
+				63A3B7321D0162B000AF268D /* main.m in Sources */,
+				63A3B7771D018AE700AF268D /* HYLByteOrderViewController.m in Sources */,
+				63A3B7611D01719400AF268D /* HYLDetailDisplayViewController.m in Sources */,
+				63A3B7671D01725B00AF268D /* UITableViewController+ClickDetailPushNewVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A3B7421D0162B000AF268D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A3B74B1D0162B000AF268D /* HYLNetworkDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63A3B7481D0162B000AF268D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A3B72C1D0162B000AF268D /* HYLNetworkDemo */;
+			targetProxy = 63A3B7471D0162B000AF268D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		63A3B7391D0162B000AF268D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A3B73A1D0162B000AF268D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		63A3B73E1D0162B000AF268D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				63A3B73F1D0162B000AF268D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		63A3B74D1D0162B000AF268D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		63A3B74E1D0162B000AF268D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A3B7501D0162B000AF268D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYLNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HenryRay.HYLNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		63A3B7511D0162B000AF268D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HYLNetworkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HenryRay.HYLNetworkDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		63A3B7531D0162B000AF268D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYLNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HenryRay.HYLNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYLNetworkDemo.app/HYLNetworkDemo";
+			};
+			name = Debug;
+		};
+		63A3B7541D0162B000AF268D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = HYLNetworkDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.HenryRay.HYLNetworkDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HYLNetworkDemo.app/HYLNetworkDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A3B7281D0162B000AF268D /* Build configuration list for PBXProject "HYLNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A3B74D1D0162B000AF268D /* Debug */,
+				63A3B74E1D0162B000AF268D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A3B74F1D0162B000AF268D /* Build configuration list for PBXNativeTarget "HYLNetworkDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A3B7501D0162B000AF268D /* Debug */,
+				63A3B7511D0162B000AF268D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		63A3B7521D0162B000AF268D /* Build configuration list for PBXNativeTarget "HYLNetworkDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A3B7531D0162B000AF268D /* Debug */,
+				63A3B7541D0162B000AF268D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63A3B7251D0162B000AF268D /* Project object */;
+}
