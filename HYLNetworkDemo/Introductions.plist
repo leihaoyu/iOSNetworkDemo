@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>目录0</key>
+	<string>第1章，BSD socket库，向读者展示了如何在他们的iOS和OS X的应用中使用BSD Socket库。本章将向他们展示如何获取网络地址信息，以及如何检查网络状态，主要集中在创建客户端/服务器为iOS和OS X设备的应用。我们将创建服务器iOS设备上的应用。这是读者的一个非常重要的章节，因为每一个其他的API是直接或间接地基于BSD socket库。</string>
+	<key>第一章0</key>
+	<string>数据存储在内存中的顺序是非常重要的，当开发网络应用程序，你可能有两个设备使用不同的大小端模式通信。为了顺利通信需要转换大小端，所以知道自己的设备是大端还是小端非常有必要。</string>
+</dict>
+</plist>
