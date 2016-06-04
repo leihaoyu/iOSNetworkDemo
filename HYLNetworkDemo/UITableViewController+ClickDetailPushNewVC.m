@@ -14,7 +14,7 @@
 - (void)tableView:(UITableView *)tableView accessoryButtonTappedForRowWithIndexPath:(NSIndexPath *)indexPath
 {
     UIViewController *vc = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"Detail"];
-    if ([[vc class] isSubclassOfClass:[HYLDetailDisplayViewController class]]) {
+    if ([vc isKindOfClass:[HYLDetailDisplayViewController class]]) {
         HYLDetailDisplayViewController *hylVc = (HYLDetailDisplayViewController *)vc;
         
         NSString *key = [NSString stringWithFormat:@"%@%ld", self.navigationItem.title, indexPath.row];

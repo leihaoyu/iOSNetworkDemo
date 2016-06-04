@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6359A89F1D026ECD0074F5B6 /* NetworkAddressStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359A89C1D026ECD0074F5B6 /* NetworkAddressStore.m */; };
+		6359A8A01D026ECD0074F5B6 /* NetworkAddressInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359A89E1D026ECD0074F5B6 /* NetworkAddressInformation.m */; };
+		6359A8A31D02723D0074F5B6 /* HYLAdressInfoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359A8A21D02723D0074F5B6 /* HYLAdressInfoTableViewController.m */; };
+		6359A8A61D0276960074F5B6 /* HYLAddrInfoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359A8A51D0276960074F5B6 /* HYLAddrInfoTableViewCell.m */; };
+		6359A8AA1D02A9B70074F5B6 /* HYLResolutionAddrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359A8A91D02A9B70074F5B6 /* HYLResolutionAddrViewController.m */; };
+		6359A8AD1D02AD5F0074F5B6 /* AddrInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6359A8AC1D02AD5F0074F5B6 /* AddrInfo.m */; };
 		63A3B7321D0162B000AF268D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B7311D0162B000AF268D /* main.m */; };
 		63A3B7351D0162B000AF268D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B7341D0162B000AF268D /* AppDelegate.m */; };
 		63A3B73B1D0162B000AF268D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A3B7391D0162B000AF268D /* Main.storyboard */; };
@@ -33,6 +39,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6359A89B1D026ECD0074F5B6 /* NetworkAddressStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkAddressStore.h; sourceTree = "<group>"; };
+		6359A89C1D026ECD0074F5B6 /* NetworkAddressStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkAddressStore.m; sourceTree = "<group>"; };
+		6359A89D1D026ECD0074F5B6 /* NetworkAddressInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkAddressInformation.h; sourceTree = "<group>"; };
+		6359A89E1D026ECD0074F5B6 /* NetworkAddressInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkAddressInformation.m; sourceTree = "<group>"; };
+		6359A8A11D02723D0074F5B6 /* HYLAdressInfoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLAdressInfoTableViewController.h; sourceTree = "<group>"; };
+		6359A8A21D02723D0074F5B6 /* HYLAdressInfoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLAdressInfoTableViewController.m; sourceTree = "<group>"; };
+		6359A8A41D0276960074F5B6 /* HYLAddrInfoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLAddrInfoTableViewCell.h; sourceTree = "<group>"; };
+		6359A8A51D0276960074F5B6 /* HYLAddrInfoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLAddrInfoTableViewCell.m; sourceTree = "<group>"; };
+		6359A8A81D02A9B70074F5B6 /* HYLResolutionAddrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLResolutionAddrViewController.h; sourceTree = "<group>"; };
+		6359A8A91D02A9B70074F5B6 /* HYLResolutionAddrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLResolutionAddrViewController.m; sourceTree = "<group>"; };
+		6359A8AB1D02AD5F0074F5B6 /* AddrInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddrInfo.h; sourceTree = "<group>"; };
+		6359A8AC1D02AD5F0074F5B6 /* AddrInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddrInfo.m; sourceTree = "<group>"; };
 		63A3B72D1D0162B000AF268D /* HYLNetworkDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYLNetworkDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A3B7311D0162B000AF268D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63A3B7331D0162B000AF268D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -76,6 +94,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6359A89A1D026C7E0074F5B6 /* Recipe2 */ = {
+			isa = PBXGroup;
+			children = (
+				6359A89B1D026ECD0074F5B6 /* NetworkAddressStore.h */,
+				6359A89C1D026ECD0074F5B6 /* NetworkAddressStore.m */,
+				6359A89D1D026ECD0074F5B6 /* NetworkAddressInformation.h */,
+				6359A89E1D026ECD0074F5B6 /* NetworkAddressInformation.m */,
+				6359A8A11D02723D0074F5B6 /* HYLAdressInfoTableViewController.h */,
+				6359A8A21D02723D0074F5B6 /* HYLAdressInfoTableViewController.m */,
+				6359A8A41D0276960074F5B6 /* HYLAddrInfoTableViewCell.h */,
+				6359A8A51D0276960074F5B6 /* HYLAddrInfoTableViewCell.m */,
+			);
+			path = Recipe2;
+			sourceTree = "<group>";
+		};
+		6359A8A71D027ECB0074F5B6 /* Recipe3 */ = {
+			isa = PBXGroup;
+			children = (
+				6359A8AB1D02AD5F0074F5B6 /* AddrInfo.h */,
+				6359A8AC1D02AD5F0074F5B6 /* AddrInfo.m */,
+				6359A8A81D02A9B70074F5B6 /* HYLResolutionAddrViewController.h */,
+				6359A8A91D02A9B70074F5B6 /* HYLResolutionAddrViewController.m */,
+			);
+			path = Recipe3;
+			sourceTree = "<group>";
+		};
 		63A3B7241D0162B000AF268D = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +187,8 @@
 		63A3B7551D016D2F00AF268D /* Chapter1 */ = {
 			isa = PBXGroup;
 			children = (
+				6359A8A71D027ECB0074F5B6 /* Recipe3 */,
+				6359A89A1D026C7E0074F5B6 /* Recipe2 */,
 				63A3B7741D018A8D00AF268D /* Recipe1 */,
 				63A3B75D1D016F7B00AF268D /* Chapter1.storyboard */,
 			);
@@ -314,11 +360,17 @@
 			files = (
 				63A3B7701D017BAF00AF268D /* HYLIntoductionManager.m in Sources */,
 				63A3B7351D0162B000AF268D /* AppDelegate.m in Sources */,
+				6359A8AD1D02AD5F0074F5B6 /* AddrInfo.m in Sources */,
 				63A3B77A1D018B5E00AF268D /* ByteOrder.m in Sources */,
 				63A3B7321D0162B000AF268D /* main.m in Sources */,
 				63A3B7771D018AE700AF268D /* HYLByteOrderViewController.m in Sources */,
+				6359A8AA1D02A9B70074F5B6 /* HYLResolutionAddrViewController.m in Sources */,
+				6359A8A01D026ECD0074F5B6 /* NetworkAddressInformation.m in Sources */,
+				6359A89F1D026ECD0074F5B6 /* NetworkAddressStore.m in Sources */,
 				63A3B7611D01719400AF268D /* HYLDetailDisplayViewController.m in Sources */,
+				6359A8A61D0276960074F5B6 /* HYLAddrInfoTableViewCell.m in Sources */,
 				63A3B7671D01725B00AF268D /* UITableViewController+ClickDetailPushNewVC.m in Sources */,
+				6359A8A31D02723D0074F5B6 /* HYLAdressInfoTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -509,6 +561,7 @@
 				63A3B7511D0162B000AF268D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63A3B7521D0162B000AF268D /* Build configuration list for PBXNativeTarget "HYLNetworkDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +570,7 @@
 				63A3B7541D0162B000AF268D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
