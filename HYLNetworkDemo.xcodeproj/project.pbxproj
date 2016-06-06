@@ -26,6 +26,13 @@
 		63A3B7701D017BAF00AF268D /* HYLIntoductionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B76F1D017BAF00AF268D /* HYLIntoductionManager.m */; };
 		63A3B7771D018AE700AF268D /* HYLByteOrderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B7761D018AE700AF268D /* HYLByteOrderViewController.m */; };
 		63A3B77A1D018B5E00AF268D /* ByteOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = 63A3B7791D018B5E00AF268D /* ByteOrder.m */; };
+		63CB87FC1D0511C900A2D2E1 /* BSDSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB87FB1D0511C900A2D2E1 /* BSDSocketServer.m */; };
+		63CB87FF1D05172700A2D2E1 /* HYLEchoServerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB87FE1D05172700A2D2E1 /* HYLEchoServerViewController.m */; };
+		63CB88031D052AFE00A2D2E1 /* BSDSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB88021D052AFE00A2D2E1 /* BSDSocketClient.m */; };
+		63CB88091D05507100A2D2E1 /* HYLEchoClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB88081D05507100A2D2E1 /* HYLEchoClientViewController.m */; };
+		63CB880D1D05587600A2D2E1 /* HYLDataServerCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB880C1D05587600A2D2E1 /* HYLDataServerCollectionViewController.m */; };
+		63CB88101D05593500A2D2E1 /* HYLDataServerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB880F1D05593500A2D2E1 /* HYLDataServerCollectionViewCell.m */; };
+		63CB88141D055F1700A2D2E1 /* HYLDataClientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63CB88131D055F1700A2D2E1 /* HYLDataClientViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +81,20 @@
 		63A3B7761D018AE700AF268D /* HYLByteOrderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLByteOrderViewController.m; sourceTree = "<group>"; };
 		63A3B7781D018B5E00AF268D /* ByteOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByteOrder.h; sourceTree = "<group>"; };
 		63A3B7791D018B5E00AF268D /* ByteOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByteOrder.m; sourceTree = "<group>"; };
+		63CB87FA1D0511C900A2D2E1 /* BSDSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDSocketServer.h; sourceTree = "<group>"; };
+		63CB87FB1D0511C900A2D2E1 /* BSDSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDSocketServer.m; sourceTree = "<group>"; };
+		63CB87FD1D05172700A2D2E1 /* HYLEchoServerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLEchoServerViewController.h; sourceTree = "<group>"; };
+		63CB87FE1D05172700A2D2E1 /* HYLEchoServerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLEchoServerViewController.m; sourceTree = "<group>"; };
+		63CB88011D052AFE00A2D2E1 /* BSDSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BSDSocketClient.h; sourceTree = "<group>"; };
+		63CB88021D052AFE00A2D2E1 /* BSDSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BSDSocketClient.m; sourceTree = "<group>"; };
+		63CB88071D05507100A2D2E1 /* HYLEchoClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLEchoClientViewController.h; sourceTree = "<group>"; };
+		63CB88081D05507100A2D2E1 /* HYLEchoClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLEchoClientViewController.m; sourceTree = "<group>"; };
+		63CB880B1D05587600A2D2E1 /* HYLDataServerCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLDataServerCollectionViewController.h; sourceTree = "<group>"; };
+		63CB880C1D05587600A2D2E1 /* HYLDataServerCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLDataServerCollectionViewController.m; sourceTree = "<group>"; };
+		63CB880E1D05593500A2D2E1 /* HYLDataServerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLDataServerCollectionViewCell.h; sourceTree = "<group>"; };
+		63CB880F1D05593500A2D2E1 /* HYLDataServerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLDataServerCollectionViewCell.m; sourceTree = "<group>"; };
+		63CB88121D055F1700A2D2E1 /* HYLDataClientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYLDataClientViewController.h; sourceTree = "<group>"; };
+		63CB88131D055F1700A2D2E1 /* HYLDataClientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYLDataClientViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +208,10 @@
 		63A3B7551D016D2F00AF268D /* Chapter1 */ = {
 			isa = PBXGroup;
 			children = (
+				63CB88111D055EF500A2D2E1 /* Recipe7 */,
+				63CB880A1D05584000A2D2E1 /* Recipe6 */,
+				63CB88001D05255F00A2D2E1 /* Recipe5 */,
+				63CB87F91D0511AA00A2D2E1 /* Recipe4 */,
 				6359A8A71D027ECB0074F5B6 /* Recipe3 */,
 				6359A89A1D026C7E0074F5B6 /* Recipe2 */,
 				63A3B7741D018A8D00AF268D /* Recipe1 */,
@@ -253,6 +278,48 @@
 				63A3B7761D018AE700AF268D /* HYLByteOrderViewController.m */,
 			);
 			path = Recipe1;
+			sourceTree = "<group>";
+		};
+		63CB87F91D0511AA00A2D2E1 /* Recipe4 */ = {
+			isa = PBXGroup;
+			children = (
+				63CB87FA1D0511C900A2D2E1 /* BSDSocketServer.h */,
+				63CB87FB1D0511C900A2D2E1 /* BSDSocketServer.m */,
+				63CB87FD1D05172700A2D2E1 /* HYLEchoServerViewController.h */,
+				63CB87FE1D05172700A2D2E1 /* HYLEchoServerViewController.m */,
+			);
+			path = Recipe4;
+			sourceTree = "<group>";
+		};
+		63CB88001D05255F00A2D2E1 /* Recipe5 */ = {
+			isa = PBXGroup;
+			children = (
+				63CB88011D052AFE00A2D2E1 /* BSDSocketClient.h */,
+				63CB88021D052AFE00A2D2E1 /* BSDSocketClient.m */,
+				63CB88071D05507100A2D2E1 /* HYLEchoClientViewController.h */,
+				63CB88081D05507100A2D2E1 /* HYLEchoClientViewController.m */,
+			);
+			path = Recipe5;
+			sourceTree = "<group>";
+		};
+		63CB880A1D05584000A2D2E1 /* Recipe6 */ = {
+			isa = PBXGroup;
+			children = (
+				63CB880B1D05587600A2D2E1 /* HYLDataServerCollectionViewController.h */,
+				63CB880C1D05587600A2D2E1 /* HYLDataServerCollectionViewController.m */,
+				63CB880E1D05593500A2D2E1 /* HYLDataServerCollectionViewCell.h */,
+				63CB880F1D05593500A2D2E1 /* HYLDataServerCollectionViewCell.m */,
+			);
+			path = Recipe6;
+			sourceTree = "<group>";
+		};
+		63CB88111D055EF500A2D2E1 /* Recipe7 */ = {
+			isa = PBXGroup;
+			children = (
+				63CB88121D055F1700A2D2E1 /* HYLDataClientViewController.h */,
+				63CB88131D055F1700A2D2E1 /* HYLDataClientViewController.m */,
+			);
+			path = Recipe7;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,12 +430,19 @@
 				6359A8AD1D02AD5F0074F5B6 /* AddrInfo.m in Sources */,
 				63A3B77A1D018B5E00AF268D /* ByteOrder.m in Sources */,
 				63A3B7321D0162B000AF268D /* main.m in Sources */,
+				63CB88091D05507100A2D2E1 /* HYLEchoClientViewController.m in Sources */,
 				63A3B7771D018AE700AF268D /* HYLByteOrderViewController.m in Sources */,
 				6359A8AA1D02A9B70074F5B6 /* HYLResolutionAddrViewController.m in Sources */,
+				63CB87FC1D0511C900A2D2E1 /* BSDSocketServer.m in Sources */,
+				63CB88141D055F1700A2D2E1 /* HYLDataClientViewController.m in Sources */,
+				63CB87FF1D05172700A2D2E1 /* HYLEchoServerViewController.m in Sources */,
 				6359A8A01D026ECD0074F5B6 /* NetworkAddressInformation.m in Sources */,
 				6359A89F1D026ECD0074F5B6 /* NetworkAddressStore.m in Sources */,
 				63A3B7611D01719400AF268D /* HYLDetailDisplayViewController.m in Sources */,
+				63CB88101D05593500A2D2E1 /* HYLDataServerCollectionViewCell.m in Sources */,
+				63CB880D1D05587600A2D2E1 /* HYLDataServerCollectionViewController.m in Sources */,
 				6359A8A61D0276960074F5B6 /* HYLAddrInfoTableViewCell.m in Sources */,
+				63CB88031D052AFE00A2D2E1 /* BSDSocketClient.m in Sources */,
 				63A3B7671D01725B00AF268D /* UITableViewController+ClickDetailPushNewVC.m in Sources */,
 				6359A8A31D02723D0074F5B6 /* HYLAdressInfoTableViewController.m in Sources */,
 			);
